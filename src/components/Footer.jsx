@@ -53,7 +53,7 @@ function Footer() {
                             <i className="bi bi-briefcase me-2"></i> Contattaci
                         </p>
                         <h1 className="email mb-3 ms-2 fs-5">Email: .@gmail.com</h1>
-                        <h1 className="telefono mb-4 ms-2 fs-5">Telefono: 3488967144</h1>
+                        <h1 className="telefono mb-4 ms-2 fs-5">Telefono: 3487896977</h1>
                         <p className="titoli-footer mb-4 mt-5 ">
                         <i className="bi bi-chat me-2"></i> Seguici anche sui social
                         </p>
