@@ -6,7 +6,50 @@
 
 @media (max-width: 991px) {
     #marchi{
-        min-height: 100px;
-        max-height: 200px !important;
-    }}
-    
+       
+        max-width: 400px !important;
+        min-height: 300px !important;
+        max-height: 200px !important;}}
+
+        .carousel-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+          }
+          
+          #marchi {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+           
+          }
+          
+          @media (min-width: 992px) {
+            #marchi {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-width: 800px !important;
+             
+            }
+          }
+          .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.2); 
+  border-radius: 50%;
+  width: 50px; 
+  height: 50px; 
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 13%; 
+  top: 50%; 
+  transform: translateY(-50%);
+}

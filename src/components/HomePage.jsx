@@ -31,18 +31,20 @@ const HomePage = () => {
 
 const ImageCarousel = () => {
   return (
-    <Carousel>
-      {images.map((image, index) => (
-        <Carousel.Item key={index}>
-          <img id="marchi"
-            className="d-block w-100 img-fluid"
-            src={image}
-            alt={`Slide ${index + 1}`}
-            style={{ maxHeight: "400px", maxWidth: "100%" }}
-          />
-        </Carousel.Item>
-      ))}
-    </Carousel>
+    <div className="carousel-container">
+      <Carousel>
+        {images.map((image, index) => (
+          <Carousel.Item key={index}>
+            <img
+              id="marchi"
+              src={image}
+              alt={`Slide ${index + 1}`}
+              style={{ maxWidth: "100%", minHeight: "400px", maxHeight: "400px" }}
+            />
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </div>
   );
 };
 
@@ -57,7 +59,7 @@ function WhatsAppButton() {
   return (
     <Button variant="success" onClick={handleClick}>
       <FaWhatsapp style={{ marginRight: "10px" }} />
-      Clicca qui per acquistare le cialde
+      Clicca qui per acquistare i nostri prodotti!
     </Button>
   );
 }

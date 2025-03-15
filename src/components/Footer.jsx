@@ -21,7 +21,7 @@ function Footer() {
                     <Col xs={8} md={4} lg={3} className="mb-5">
                         <Nav className="flex-column fs-5">
                             <p className="titoli-footer mb-3">
-                                <i id="store" className="bi bi-bank me-2"></i> Dove è il nostro store?
+                                <i id="store" className="bi bi-bank me-2"></i>  📍  Dove è il nostro store?
                             </p>
                             <NavLink 
     href="https://www.google.com/maps/search/?api=1&query=Via+Palombarese,+20,+00013+Fonte+Nuova,+Roma"
@@ -39,18 +39,18 @@ function Footer() {
                     <Col xs={8} md={5} lg={3} className="mb-5">
                         <Nav className="NavLink flex-column fs-5">
                             <p className="titoli-footer mb-3">
-                            <i className="bi bi-calendar-date me-2"></i> Nostri Orari
+                            <i className="bi bi-calendar-date me-2"></i> 🕰️ Orari
                             </p>
                             <NavLink href="#" className="a text-white">- Da Lunedi al Sabato</NavLink>
                             <NavLink href="#" className="a text-white">9:00/13:00 & 16:00/20:00</NavLink>
-                            <NavLink href="#" className="a text-white">- Domenica</NavLink>
-                            <NavLink href="#" className="a text-white">9:00/13:00</NavLink>
+                            <NavLink href="#" className="a text-white">- Domenica Chiuso</NavLink>
+                            
                         </Nav>
                     </Col>
 
                     <Col xs={8} md={4} lg={3} className="mb-5">
                         <p className="titoli-footer mb-3 ">
-                            <i className="bi bi-briefcase me-2"></i> Contattaci
+                            <i className="bi bi-briefcase me-2"></i> 💬 Contattaci
                         </p>
                         <h1 className="email mb-3 ms-2 fs-5">Email: .@gmail.com</h1>
                         <h1 className="telefono mb-4 ms-2 fs-5">Telefono: 3487896977</h1>
@@ -58,7 +58,7 @@ function Footer() {
                         <i className="bi bi-chat me-2"></i> Seguici anche sui social
                         </p>
                         <a href="https://www.instagram.com/caffehorus/" target="_blank" rel="noopener noreferrer">
-                            <FaInstagram size={30} style={{ color: '#E1306C' }} />
+                            <FaInstagram size={30} style={{ marginLeft: '15px', color: '#E1306C' }} />
                         </a>
                         <a href=" https://www.facebook.com/search/top?q=GL%20CAFFE%20HORUS" target="_blank" rel="noopener noreferrer">
                             <FaFacebook size={30} style={{ marginLeft: '15px', color: '#3b5998' }} />
