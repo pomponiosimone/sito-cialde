@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
 
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import "../css/NavBar.css"
 import LogoCialde from '../assets/logocialde.webp';
 import Logo from '../assets/logo1.jpg';
 

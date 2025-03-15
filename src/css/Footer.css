@@ -1,0 +1,23 @@
+
+.titoli-footer{
+    font-family: 'Arial', sans-serif; 
+  font-size: 1.3rem; 
+  font-weight: bold; 
+}
+@media (max-width: 991px) {
+    .footer-column {
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .titoli-footer, .a {
+      font-size: 1rem; 
+    }
+
+    .email,.telefono {
+        font-size: 1rem !important;
+    }
+
+    
+}
+

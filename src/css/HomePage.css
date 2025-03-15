@@ -1,0 +1,12 @@
+
+@media (max-width: 991px) {
+.container-home{
+    margin-top: 20%;
+}}
+
+@media (max-width: 991px) {
+    #marchi{
+        min-height: 100px;
+        max-height: 200px !important;
+    }}
+    
