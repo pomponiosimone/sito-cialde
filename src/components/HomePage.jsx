@@ -9,15 +9,16 @@ import image3 from "../assets/image3.jpg";
 import image4 from "../assets/image4.webp";
 import image5 from "../assets/image5.jpg";
 import image6 from "../assets/image6.jpg";
+import image7 from "../assets/image50.jpg";
 
-const images = [image1, image2, image3, image4, image5, image6];
+const images = [image1, image2, image3, image4, image5, image6, image7];
 
 const HomePage = () => {
   return (
     <div className="container-home">
-      <h2 className="text-center mt-5">I NOSTRI MARCHI</h2>
+    <h2 className="text-center mt-5">I NOSTRI MARCHI</h2>
       <ImageCarousel />
-
+      
       <div className="text-center mt-4">
         <WhatsAppButton />
       </div>
